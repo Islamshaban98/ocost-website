@@ -15,3 +15,9 @@
         margin-top: 160px !important;
     }
 }
+@media(max-width:768px){
+    .green-btn2{
+        padding: 10px 20px 10px 20px;
+       font-size: 12px;
+    }
+}

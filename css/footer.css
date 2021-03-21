@@ -67,6 +67,9 @@
         margin-left: 0 !important;
         margin-top: 10px;
     }
+    .hidden-btn{
+        display: none !important;
+    }
 }
 @media(max-width:320px){
     .card-div{
