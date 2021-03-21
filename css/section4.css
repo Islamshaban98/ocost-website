@@ -1,0 +1,29 @@
+.section-4-rectangle{
+    background: url(../img/Rectangle2.png) no-repeat ; 
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-position:bottom;
+}
+@media(max-width:768px){
+    .mobile-img-div{
+        display: none;
+    }
+    .book-div{
+        margin-bottom: 50px;
+       
+    }
+}
+@media(max-width:425px){
+    .now-txt{
+        font-size: 25px !important;
+        padding-right: 0px !important;
+        line-height: unset !important;
+    }
+    .book-div{
+        margin-bottom: 50px;
+        text-align: center !important;
+    }
+
+}

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+body{
+    font-family: Poppins ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-light .navbar-toggler{
+    color: rgba(252, 252, 252, 0.55) !important;
+    border-color: rgba(247, 243, 243, 0.1) !important;
+}
+.bg-green{
+    background-color: #0BB783;
+}
+.btn-outline-success{
+    border: transparent;
+    color: #fff;
+}
+.btn-outline-success:hover{
+    color: #0BB783;
+    background-color: #fff;
+}
+.btn:focus{
+   box-shadow: none !important;
+}
+.hero-section-rectangle{
+    background: url(../img/Rectangle.png) no-repeat ; 
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-position:bottom;
+
+}
+.title-mob{
+padding-top: 100px;
+}
+.colored-btn{
+    color: #0BB783;
+    background-color: #fff;
+    margin-right: 5px;
+}
+.colored-btn:hover{
+    color: #fff;
+    background-color: #0BB783;
+    border-color: #fff;
+
+}
+.outline-btn{
+    color: #fff;
+    border-color: #fff;
+
+}
+.outline-btn:hover{
+    color: #0BB783;
+    background-color: #fff;
+}
+@media (max-width: 992px) { 
+    .ocost-img{
+        display: none;
+    }
+    .title-mob{
+padding-bottom: 90px;
+    }
+    .tablet-btn{
+        flex-direction: column !important;
+        margin-top: 50px;
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+    }
+    .btn{
+        margin-bottom: 10px !important;
+    }
+  
+ }
+ @media(max-width:425px){
+    .title-mob{
+        padding-bottom: 150px;
+        text-align: center;
+    }
+    .title-size-mob{
+        font-size: 16px !important;
+        width: inherit !important;
+    }
+    .parag-size-mob{
+        font-size: 12px !important;
+        width: inherit !important;
+    }
+    .form-btn{
+        flex-direction: column !important;
+        margin-top: 50px;
+        margin-left: 40px !important;
+        margin-right: 40px !important;
+    }
+    .btn{
+       font-size: 12px;
+    }
+    .companies-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies-title{
+        font-size: 18px !important;
+        width: inherit !important;
+        text-align: center;
+    }
+    .companies-logo{
+        margin-left:0px !important ;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies-logo div{
+        margin-top: 20px;
+    }
+    .cost-txt-div p{
+        font-size: 18px !important;
+    }
+ 
+ }
