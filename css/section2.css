@@ -41,6 +41,7 @@ margin-left: 10px;
 .content{
     align-items: center;
     justify-content: center;
+    font-size: 14px;
 }
 }
 @media(max-width:768px){
