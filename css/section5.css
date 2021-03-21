@@ -5,3 +5,13 @@
     padding: 15px 45px 15px 45px;
     margin: 20px 0 20px 0;
 }
+@media(max-width:1024px){
+    .laptop-img{
+    /* width: 420px !important;
+    margin-top: 20px; */
+    display: none;
+    }
+    .group-4{
+        margin-top: 160px !important;
+    }
+}

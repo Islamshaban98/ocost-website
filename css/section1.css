@@ -74,6 +74,21 @@ padding-bottom: 90px;
     }
   
  }
+ @media(max-width:768px){
+    .companies-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies-logo{
+        margin-left:0px !important ;
+        margin-top: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .companies-logo div{
+        margin-top: 20px;
+    }
+ }
  @media(max-width:425px){
     .title-mob{
         padding-bottom: 150px;
@@ -96,23 +111,10 @@ padding-bottom: 90px;
     .btn{
        font-size: 12px;
     }
-    .companies-div{
-        flex-direction: column;
-        align-items: center;
-    }
     .companies-title{
         font-size: 18px !important;
         width: inherit !important;
         text-align: center;
-    }
-    .companies-logo{
-        margin-left:0px !important ;
-        margin-top: 20px;
-        flex-direction: column;
-        align-items: center;
-    }
-    .companies-logo div{
-        margin-top: 20px;
     }
     .cost-txt-div p{
         font-size: 18px !important;
