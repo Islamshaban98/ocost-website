@@ -74,3 +74,13 @@ align-items: center;
     }
 
 }
+@media(max-width:768px){
+    .cost-txt-div{
+        padding-top: 50px;
+    }
+}
+@media(max-width:425px){
+    .green-btn{
+        margin: 50px 0 50px 0 !important;
+    }
+}

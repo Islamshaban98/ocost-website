@@ -33,6 +33,9 @@ body{
     background-position:bottom;
 
 }
+.companies-div{
+    margin-top: 100px;
+}
 .title-mob{
 padding-top: 100px;
 }
@@ -118,6 +121,16 @@ padding-bottom: 90px;
     }
     .cost-txt-div p{
         font-size: 18px !important;
+    }
+    .companies-div{
+        margin-top: 0px !important;
+    }
+    .padding-txt{
+        padding-inline: 20px;
+        text-align: center;
+    }
+    .colored-btn{
+        margin-right: 0px;
     }
  
  }
