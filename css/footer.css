@@ -36,7 +36,8 @@
         padding: 0px !important;
         display: flex;
         justify-content: center;
-      margin-bottom: 20px
+        margin-bottom: 20px;
+     
     }
     .input-btn{
         margin-bottom: 0 !important;
@@ -75,11 +76,14 @@
         align-items: center;
         justify-content: center;
     }
-    .d-none{
+    .d-none-div{
         display: none;
     }
     .ready-div{
         padding-bottom: 50px !important;
+    }
+    .input-div div{
+        padding: 5px !important;
     }
 }
 @media(max-width:320px){
