@@ -86,6 +86,13 @@
     .input-div div{
         padding: 5px !important;
     }
+    .nav-div{
+        flex-direction: column;
+    }
+    .tablet-btn{
+        align-items: end !important;
+        margin-left: 0px !important;
+    }
 }
 @media(max-width:320px){
     .card-div{
