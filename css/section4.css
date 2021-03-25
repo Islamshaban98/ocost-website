@@ -6,6 +6,14 @@
     right: 0;
     background-position:bottom;
 }
+.btn-secondary{
+    border-color: transparent !important;
+    background-color: transparent !important;
+}
+.dropdown{
+    width: 140px;
+    margin: auto;
+}
 @media(max-width:768px){
     .mobile-img-div{
         display: none;
