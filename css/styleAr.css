@@ -45,3 +45,6 @@ margin-left: 10px;
         margin-right: 0px !important;
     }
 }
+[type=email], [type=number], [type=tel], [type=url] {
+    direction: rtl;
+}
