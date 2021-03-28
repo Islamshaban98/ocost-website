@@ -10,3 +10,38 @@
     right: 0;
     background-position:bottom;
 }
+.outline-btn{
+margin-right: 5px;
+}
+.pink{
+margin-right: 10px;
+}
+.blue{
+margin-right: 10px;
+    
+}
+.green{
+    margin-left: 10px;
+
+}
+.yellow{
+margin-left: 10px;
+
+}
+@media(max-width:768px){
+.pink{
+margin-left: 10px;
+}
+.blue{
+    margin-left: 10px;
+}
+}
+@media(max-width:425px){
+    .outline-btn{
+        margin-right: 0px;
+    }  
+    .tablet-btn {
+        align-items: start !important;
+        margin-right: 0px !important;
+    }
+}
