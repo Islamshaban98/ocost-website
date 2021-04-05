@@ -577,4 +577,7 @@ input:focus {
     align-items: end !important;
     margin: 1rem 0 !important;
   }
+  .tablet-btn a {
+    padding: .5rem 0;
+  }
 }
