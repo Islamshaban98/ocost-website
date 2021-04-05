@@ -8,6 +8,7 @@
 }
 .link-light {
   background-color: transparent !important;
+  appearance: none !important;
 }
 .__mobile_screen {
   position: absolute;
