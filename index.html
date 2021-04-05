@@ -2,7 +2,6 @@
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -12,7 +11,7 @@
     href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
-  <title>Cost</title>
+  <title>OCost</title>
 </head>
 
 <body>
@@ -39,8 +38,8 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <form class="d-flex ms-auto form-btn ">
-            <button class="btn btn-outline-success" type="submit">Restaurants</button>
-            <button class="btn btn-outline-success" type="submit">Suppliers</button>
+            <a href="#" class="link-light mx-2 text-decoration-none" type="submit">Restaurants</a>
+            <a href="#" class="link-light mx-2 text-decoration-none" type="submit">Suppliers</a>
             <a href="#" class="d-inline-flex align-items-center mx-3 white text-decoration-none link link-light">
               <span class="mx-2">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -58,46 +57,59 @@
         </div>
       </div>
     </nav>
-    <div class="container d-flex justify-content-between">
-      <div style="margin-top:80px; width:462px;color: white;" class="title-size-mob">
-        <p style=" font-size: 2.625rem;" class="title-size-mob fw-bold">
-          Advanced Supply chain solution
-        </p>
-        <p class="parag-size-mob">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut id nisl tellus rhoncus, imperdiet consequat
-          ornare. Nunc, cursus eget dui, ultricies lacus.
-        </p>
-        <form class="d-flex form-btn">
-          <button type="button" class="btn colored-btn">Get started</button>
-          <button type="button" class="btn outline-btn">Learn more</button>
-        </form>
-      </div>
-      <div style="position: relative; top: 60px;" class="ocost-img">
-        <img src="./img/ocost 1.svg">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-md-5 col-sm-12">
+          <div style="color: white;" class="title-size-mob">
+            <p style=" font-size: 2.625rem;" class="title-size-mob fw-bold">
+              Advanced Supply <br> chain solution
+            </p>
+            <p class="parag-size-mob">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Diam ut id nisl tellus rhoncus, imperdiet
+              consequat
+              ornare. Nunc, cursus eget dui, ultricies lacus.
+            </p>
+            <form class="d-flex form-btn">
+              <button type="button" class="btn colored-btn me-2">Get started</button>
+              <button type="button" class="btn outline-btn">Learn more</button>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-7 col-sm-12 text-end">
+          <div style="position: relative;" class="ocost-img">
+            <img src="./img/ocost 1.svg">
+          </div>
+        </div>
       </div>
     </div>
   </section>
   <div class="container d-flex companies-div" style="margin-top: 100px;">
-    <div style="width: calc(100% - 60%);font-size: 22px;" class="companies-title">
-      <p style="font-weight: bold;color: #000;">
-        Trusted by <span style="color:#0BB783;">25,000+</span> <br> companies around the world
-      </p>
-    </div>
-    <div class=" d-flex w-100 justify-content-around companies-logo" style="margin-left: 80px;">
-      <div>
-        <img src="./img/idea.svg" style="width: 100%; height: 100%;" />
+    <div class="row w-100 align-items-center">
+      <div class="col-md-5 col-sm-12">
+        <div class="companies-title">
+          <p style="font-size: 22px;font-weight: bold;color: #000;">
+            Trusted by <span style="color:#0BB783;">25,000+</span> <br> companies around the world
+          </p>
+        </div>
       </div>
-      <div>
-        <img src="./img/zoo.svg" style="width: 100%; height: 100%;" />
-      </div>
-      <div>
-        <img src="./img/lab.svg" style="width: 100%; height: 100%;" />
-      </div>
-      <div>
-        <img src="./img/circle.svg" style="width: 100%; height: 100%;" />
-      </div>
-      <div>
-        <img src="./img/kanaba.svg" style="width: 100%; height: 100%;" />
+      <div class="col-md-7 col-sm-12">
+        <div class=" d-flex w-100 justify-content-around companies-logo">
+          <div>
+            <img src="./img/idea.svg" style="width: 100%; height: 100%;" />
+          </div>
+          <div>
+            <img src="./img/zoo.svg" style="width: 100%; height: 100%;" />
+          </div>
+          <div>
+            <img src="./img/lab.svg" style="width: 100%; height: 100%;" />
+          </div>
+          <div>
+            <img src="./img/circle.svg" style="width: 100%; height: 100%;" />
+          </div>
+          <div>
+            <img src="./img/kanaba.svg" style="width: 100%; height: 100%;" />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -105,63 +117,73 @@
   <section class="why-cost-section">
     <div class="container">
       <div class="cost-txt-div">
-        <p style="color: #0BB783; font-weight: 700;font-size: 18px;">Why Ocost?</p>
-        <p style="color: #000; font-weight: 700;font-size: 22px;" class="padding-txt">We make it easy to track <br>
-          everything!</p>
-        <p style="color:  #6E6E6E; font-size: 16px;" class="padding-txt">Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. <br> Diam ut id nisl tellus rhoncus, imperdiet</p>
+        <h2 class="m-0" style="color: #0BB783; font-weight: 700;font-size: 18px;">Why Ocost?</h2>
+        <h2 style="color: #000; font-weight: 700;font-size: 22px;" class=" my-3">We make it easy to track
+          <br>
+          everything!</h2>
+        <p style="color:  #6E6E6E; font-size: 16px;" class="pre-line text-center m-0">Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+          Diam ut id nisl tellus rhoncus, imperdiet</p>
       </div>
       <div class="row content " style="margin-top: 100px;">
         <div class="col-sm-12 col-lg-4 align-self-center">
-          <div class="d-flex center-div mb-3 align-items-center">
-            <div class="colored-div green">
+          <div class="">
+            <div class="d-flex center-div mb-3 align-items-center">
+              <div class="colored-div green">
+              </div>
+              <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
+                Simple & Easy Setup
+              </p>
             </div>
-            <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
-              Simple & Easy Setup
+            <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class="mb-0">
+              Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
+              arcu leo.
             </p>
           </div>
-          <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class="padding-txt mb-0">
-            Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
-            arcu leo.
-          </p>
-          <div class="d-flex mt-5 center-div mb-3 align-items-center">
-            <div class="yellow colored-div">
+          <div class="">
+            <div class="d-flex mt-5 center-div mb-3 align-items-center">
+              <div class="yellow colored-div">
+              </div>
+              <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
+                Simple & Easy Setup
+              </p>
             </div>
-            <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
-              Simple & Easy Setup
+            <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class="mb-0">
+              Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
+              arcu leo.
             </p>
           </div>
-          <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class="padding-txt mb-0">
-            Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
-            arcu leo.
-          </p>
         </div>
         <div class="col-sm-12 col-lg-4 img-col text-center">
           <img src="./img/chart.svg" class="shadow-1" />
         </div>
         <div class="col-sm-12 col-lg-4 align-self-center text-end">
-          <div class="d-flex row-reverse reverse-div justify-content-end mb-3 align-items-center">
-            <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
-              Simple & Easy Setup
-            </p>
-            <div class="colored-div pink">
+          <div class="">
+            <div class="d-flex flex-row-reverse mb-3 align-items-center">
+              <div class="colored-div pink">
+              </div>
+              <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
+                Simple & Easy Setup
+              </p>
             </div>
-          </div>
-          <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class="padding-txt m-0">
-            Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
-            arcu leo.
-          </p>
-          <div class="d-flex mt-5 row-reverse justify-content-end mb-3 align-items-center">
-            <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
-              Simple & Easy Setup
+            <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class=" m-0">
+              Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
+              arcu leo.
             </p>
-            <div class="colored-div blue">
-            </div>
           </div>
-          <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class="padding-txt m-0">
-            Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
-            arcu leo.
-          </p>
+          <div class="">
+            <div class="d-flex mt-5 flex-row-reverse mb-3 align-items-center">
+              <div class="colored-div blue">
+              </div>
+              <p class="m-0" style="color: #000; font-weight: 700;font-size: 16px;">
+                Simple & Easy Setup
+              </p>
+            </div>
+            <p style="color:  #6E6E6E; font-size: 16px; line-height: 24px;" class=" m-0">
+              Lorem ipsum dolor sit amet, consectet adipiscing elit. Arcu elementum tellus purus, consectetur ultricies
+              arcu leo.
+            </p>
+          </div>
         </div>
       </div>
       <div style="text-align: center;">
@@ -175,8 +197,9 @@
       <div class="cost-txt-div">
         <p style="color: #0BB783; font-weight: 700;font-size: 18px;">Features</p>
         <p style="color: #000; font-weight: 700;font-size: 22px;">Simple, yet powerful features</p>
-        <p style="color:  #6E6E6E; font-size: 16px;" class="padding-txt">Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit. <br> Diam ut id nisl tellus rhoncus, imperdiet</p>
+        <p style="color:  #6E6E6E; font-size: 16px;" class="pre-line text-center m-0">Lorem ipsum dolor sit amet,
+          consectetur adipiscing elit.
+          Diam ut id nisl tellus rhoncus, imperdiet</p>
       </div>
       <div class="row mt-5r pb-10r align-items-center">
         <div class="col-lg-6">
@@ -192,7 +215,7 @@
               </div>
               <p style="color: #000; font-weight: 700;font-size: 16px;">Simple & Easy Setup</p>
             </div>
-            <p style="color:  #6E6E6E; font-size: 16px;width: 470px;" class="parag padding-txt mt-2">Lorem ipsum dolor
+            <p style="color:  #6E6E6E; font-size: 16px;width: 470px;" class="parag  mt-2">Lorem ipsum dolor
               sit
               amet, consectetur adipiscing elit. Diam ut id nisl tellus rhoncus, imperdiet</p>
           </div>
@@ -233,33 +256,37 @@
   </section>
   <!------------- section-4 ------------------>
   <section class="section-4-rectangle">
-    <!-- <div class="container"> -->
-    <div class="d-flex" style="padding-bottom: 150px;">
-      <div class="mobile-img-div">
-        <img src="./img/mobile.png" style="width: 100%;
-        padding: 4rem 0 15rem 0;" />
-      </div>
-      <div class="d-flex flex-column align-items-start pt-10r">
-        <div class="mb-4">
-          <img class="__donat" src="img/donat.svg" alt="">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5 col-sm-12">
+          <div class="mobile-img-div position-relative">
+            <img class="py-5 __mobile_screen" src="./img/mobile.png" />
+          </div>
         </div>
-        <p style="padding-right: 20px; font-size: 39px; font-weight: 900; color: #fff; font-style: italic; line-height: 58px;"
-          class="now-txt mb-0">
-          Now it's time to switch old ways to track expenses smarter
-        </p>
-        <p class="mb-0 mt-4" style="font-size: 16px; line-height: 24px; color: #fff; text-align: center;">What are you
-          waiting for? It's
-          time to get started.</p>
-        <div class="d-flex form-btn donate-btn mt-4">
-          <button type="button" class="btn colored-btn">Get Started</button>
-          <button type="button" class="btn outline-btn">Learn more</button>
+        <div class="col-md-7 col-sm-12">
+          <div class="d-flex flex-column align-items-start pt-10r">
+            <div class="mb-4">
+              <img class="__donat" src="img/donat.svg" alt="">
+            </div>
+            <p style="padding-right: 20px; font-size: 39px; font-weight: 900; color: #fff; font-style: italic; line-height: 58px;"
+              class="now-txt mb-0">
+              Now it's time to switch old ways to track expenses smarter
+            </p>
+            <p class="mb-0 mt-4" style="font-size: 16px; line-height: 24px; color: #fff; text-align: center;">What are
+              you
+              waiting for? It's
+              time to get started.</p>
+            <div class="w-100 d-flex mt-4">
+              <button type="button" class="btn colored-btn me-2">Get Started</button>
+              <button type="button" class="btn outline-btn">Learn more</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <!-- </div> -->
   </section>
   <!------------- section-5 ------------------->
-  <section>
+  <section class="__section_5">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -267,7 +294,7 @@
             class="now-txt">
             Now it's time to switch old ways to track expenses smarter
           </p>
-          <p style="font-size: 16px; line-height: 24px; color: #464E5F;" class="padding-txt">What are you waiting for?
+          <p style="font-size: 16px; line-height: 24px; color: #464E5F;" class="">What are you waiting for?
             It's time to get started.</p>
           <div style="text-align: left;" class="book-div">
             <button type="button" class="btn green-btn mt-4">Book a Demo!</button>
@@ -279,84 +306,86 @@
       </div>
     </div>
   </section>
+
+  <section class="bg-wave">
+    <div class="container">
+      <div class="group-4">
+        <div class="row pa-7r">
+          <div class="col-lg-6 col-sm-12 ready-div">
+            <p style=" font-size: 39px; font-weight: 900; color: #fff; font-style: italic; line-height: 58px;"
+              class="ready-txt">
+              READY FOR LESS STRESS AND MORE SLEEP?
+            </p>
+            <p class="mt-4" style="font-size: 16px; line-height: 24px; color: #fff;">What are you waiting for? It's time to get
+              started.</p>
+            <div class="d-flex form-btn row-btn">
+              <div style="width: 119px; height: 40px;">
+                <img src="./img/app-store.svg" />
+              </div>
+              <div style="margin-left: 15px;width: 119px; height: 40px;" class="app-store">
+                <img src="./img/google-play.svg" />
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-sm-12 align-self-center input-div">
+            <div style="background-color: #fff; display: flex; border-radius: 10px; padding: 10px;">
+              <input type="email" placeholder="Ente your email address.." style="flex: auto;">
+              <button type="button " class="btn green-btn m-0 rounded d-none d-sm-none d-md-block d-lg-block d-xl-block d-xxl-block">Get Started</button>
+            </div>
+          </div>
+          <button type="button " class="btn green-btn m-0 rounded d-block d-sm-block d-md-none d-lg-none d-xl-none d-xxl-none">Get Started</button>
+        </div>
+      </div>
+      <div class="cost-txt-div pb-3" style="padding-top: 0px;">
+        <p style="color: #0BB783; font-weight: 700;font-size: 18px;">Why Ocost?</p>
+        <p style="color: #000; font-weight: 700;font-size: 22px;" class=" mb-5">We make it easy to track
+          everything!
+        </p>
+      </div>
+      <div class="container" style="padding-bottom: 100px;">
+        <div class="row justify-content-between card-div">
+          <div class="col-lg-2   card">
+            <img src="./img/kanaba.svg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-lg-2   card">
+            <img src="./img/zoo.svg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-lg-2  card">
+            <img src="./img/idea.svg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-lg-2  card">
+            <img src="./img/circle.svg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-lg-2  card d-none-div">
+            <img src="./img/code.svg" style="width: 100%; height: 100%;">
+          </div>
+          <div class="col-lg-2  card d-none-div">
+            <img src="./img/circle.svg" style="width: 100%; height: 100%;">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!------------- footer-section --------------->
-  <section class="footer-rectangle">
-    <div class="group-4">
-      <div class="row ">
-        <div class="col-lg-6 ready-div" style="padding: 80px 0 80px 80px ">
-          <p style=" font-size: 39px; font-weight: 900; color: #fff; font-style: italic; line-height: 58px;"
-            class="ready-txt">
-            READY FOR LESS STRESS AND MORE SLEEP?
-          </p>
-          <p style="font-size: 16px; line-height: 24px; color: #fff;">What are you waiting for? It's time to get
-            started.</p>
-          <div class="d-flex form-btn row-btn">
-            <div style="width: 119px; height: 40px;">
-              <img src="./img/app-store.svg" />
-            </div>
-            <div style="margin-left: 15px;width: 119px; height: 40px;" class="app-store">
-              <img src="./img/google-play.svg" />
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 align-self-center input-div" style="padding-inline: 40px;">
-          <div style="background-color: #fff; display: flex; border-radius: 10px; padding: 10px;">
-            <input type="email" placeholder="Ente your email address.." style="flex: auto;">
-            <button type="button " class="btn green-btn m-0 rounded">Get Started</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="cost-txt-div pb-3" style="padding-top: 0px;">
-      <p style="color: #0BB783; font-weight: 700;font-size: 18px;">Why Ocost?</p>
-      <p style="color: #000; font-weight: 700;font-size: 22px;" class="padding-txt mb-5">We make it easy to track
-        everything!
-      </p>
-    </div>
-    <div class="container" style="margin-bottom: 100px;">
-      <div class="row justify-content-between card-div">
-        <div class="col-lg-2   card">
-          <img src="./img/kanaba.svg" style="width: 100%; height: 100%;">
-        </div>
-        <div class="col-lg-2   card">
-          <img src="./img/zoo.svg" style="width: 100%; height: 100%;">
-        </div>
-        <div class="col-lg-2  card">
-          <img src="./img/idea.svg" style="width: 100%; height: 100%;">
-        </div>
-        <div class="col-lg-2  card">
-          <img src="./img/circle.svg" style="width: 100%; height: 100%;">
-        </div>
-        <div class="col-lg-2  card d-none-div">
-          <img src="./img/code.svg" style="width: 100%; height: 100%;">
-        </div>
-        <div class="col-lg-2  card d-none-div">
-          <img src="./img/circle.svg" style="width: 100%; height: 100%;">
-        </div>
-      </div>
-    </div>
+  <section class="footer">
     <nav class="navbar navbar-expand-lg navbar-light  bg-green">
       <div class="container d-flex nav-div tablet-btn">
         <a class="navbar-brand" href="#">
           <img src="img/cost-logo.svg" />
           <img src="img/Union 1.svg" />
         </a>
-        <form class="d-flex ms-auto form-btn tablet-btn">
-          <button class="btn btn-outline-success" type="submit">Restaurants</button>
-          <button class="btn btn-outline-success" type="submit">Suppliers</button>
-        </form>
-        <!-- <form class="d-flex ms-auto form-btn hidden-btn">
-                    <button class="btn btn-outline-success" type="submit">Restaurants</button>
-                    <button class="btn btn-outline-success" type="submit">Suppliers</button>
-                  </form> -->
+        <div class="d-flex ms-auto tablet-btn">
+          <a href="#" class="link-light mx-2 text-decoration-none" type="submit">Restaurants</a>
+          <a href="#" class="link-light mx-2 text-decoration-none" type="submit">Suppliers</a>
+        </div>
       </div>
     </nav>
   </section>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous">
   </script>
-
-
 </body>
 
 </html>
