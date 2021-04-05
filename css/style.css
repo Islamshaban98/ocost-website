@@ -349,8 +349,7 @@ body {
   right: 0;
 }
 .card {
-  width: 177px;
-  height: 177px;
+  padding: 4rem;
   border-radius: 20px;
   background-color: #fff;
   align-items: center;
@@ -427,11 +426,10 @@ body {
   /* .ready-div {
     padding-bottom: 50px !important;
   } */
- 
+
   .nav-div {
     flex-direction: column;
   }
-
 }
 @media (max-width: 320px) {
   .card-div {
@@ -458,6 +456,12 @@ input:focus {
   outline: none;
 }
 @media (max-width: 475px) {
+  .__download_btn {
+    align-items: center;
+  }
+  .__download_btn div {
+    margin: 0.5rem 0 !important;
+  }
   .btn {
     width: 100%;
   }
@@ -481,7 +485,7 @@ input:focus {
     align-items: center;
   }
   .nav-collapse-items a {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
   }
   .companies-title p,
   .cost-txt-div h2 {
@@ -543,7 +547,7 @@ input:focus {
     line-height: unset !important;
   }
   .bg-wave div div:first-child .row div:first-child div div,
-  .bg-wave img {
+  .group-4 img {
     width: 80% !important;
     height: auto !important;
     text-align: center;
@@ -554,7 +558,7 @@ input:focus {
     padding: 0 !important;
     width: 100%;
   }
-  .input-div div input{
+  .input-div div input {
     padding: 1rem;
     border-radius: 5px;
     width: 100%;
@@ -578,6 +582,9 @@ input:focus {
     margin: 1rem 0 !important;
   }
   .tablet-btn a {
-    padding: .5rem 0;
+    padding: 0.5rem 0;
+  }
+  .card-div div div {
+    margin-bottom: 0.5rem;
   }
 }
