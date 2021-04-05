@@ -457,7 +457,7 @@ input {
 input:focus {
   outline: none;
 }
-@media (max-width: 426px) {
+@media (max-width: 475px) {
   .btn {
     width: 100%;
   }
