@@ -557,6 +557,7 @@ input:focus {
   .input-div div input{
     padding: 1rem;
     border-radius: 5px;
+    width: 100%;
   }
   .input-div {
     padding: 0 !important;
