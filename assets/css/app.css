@@ -6,8 +6,9 @@
 .btn {
   padding: 0.875rem 2.813rem !important;
 }
-.link-light {
-  -webkit-tap-highlight-color: transparent !important;
+.btn-link {
+  padding: 0 !important;
+  margin: 0 .5rem;
 }
 .__mobile_screen {
   position: absolute;
