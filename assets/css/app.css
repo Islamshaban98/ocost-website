@@ -53,6 +53,10 @@
   border-radius: 50%;
   padding: 1rem;
 }
+nav,
+.collapse {
+  transition: all 300ms ease-out;
+}
 .half-gradient {
   background: linear-gradient(
     180deg,
@@ -95,7 +99,7 @@ body {
   box-shadow: none !important;
 }
 .hero-section-rectangle {
-  background: url(../img/Rectangle.png) no-repeat;
+  background: url(../media/images/Rectangle.png) no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
@@ -275,7 +279,7 @@ body {
   }
 }
 .section-4-rectangle {
-  background: url(../img/bg-donat.svg) no-repeat;
+  background: url(../media/images/bg-donat.svg) no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
@@ -341,7 +345,7 @@ body {
   }
 }
 .bg-wave {
-  background: url(../img/Rectangle3.png) no-repeat;
+  background: url(../media/images/Rectangle3.png) no-repeat;
   background-size: cover;
   background-position-y: bottom;
   top: 0;
@@ -435,7 +439,7 @@ body {
   }
 }
 .group-4 {
-  background: url(../img/Group4.png) no-repeat;
+  background: url(../media/images/Group4.png) no-repeat;
   background-size: cover;
   margin-top: 60px;
   border-radius: 20px;
