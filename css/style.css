@@ -400,8 +400,6 @@ body {
 }
 @media (max-width: 425px) {
   .card {
-    width: 150px;
-    height: 150px;
     margin: 10px 10px 0px 10px;
   }
   .row-btn {
