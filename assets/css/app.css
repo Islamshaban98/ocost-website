@@ -7,10 +7,7 @@
   padding: 0.875rem 2.813rem !important;
 }
 .link-light {
-  background-color: transparent !important;
-  appearance: none !important;
-  box-shadow: unset !important;
-  border: none !important;
+  -webkit-tap-highlight-color: transparent !important;
 }
 .__mobile_screen {
   position: absolute;
