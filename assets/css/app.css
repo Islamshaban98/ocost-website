@@ -6,6 +6,9 @@
 .btn {
   padding: 0.875rem 2.813rem !important;
 }
+.link-light {
+  background: transparent !important;
+}
 .__mobile_screen {
   position: absolute;
   left: -15%;
