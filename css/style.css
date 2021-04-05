@@ -431,10 +431,7 @@ body {
   .nav-div {
     flex-direction: column;
   }
-  .tablet-btn {
-    align-items: end !important;
-    margin-left: 0px !important;
-  }
+
 }
 @media (max-width: 320px) {
   .card-div {
@@ -476,6 +473,15 @@ input:focus {
     margin: auto !important;
     padding-top: 2rem;
     padding-bottom: 8rem;
+  }
+  .nav-collapse-items {
+    flex-direction: column !important;
+    margin: auto !important;
+    padding: 2rem 0;
+    align-items: center;
+  }
+  .nav-collapse-items a {
+    padding: .5rem 0;
   }
   .companies-title p,
   .cost-txt-div h2 {
@@ -538,12 +544,19 @@ input:focus {
   }
   .bg-wave div div:first-child .row div:first-child div div,
   .bg-wave img {
-    width: 100% !important;
+    width: 80% !important;
     height: auto !important;
+    text-align: center;
   }
   .input-div div {
-    padding: 1rem !important;
+    background: none;
+    border: none;
+    padding: 0 !important;
     width: 100%;
+  }
+  .input-div div input{
+    padding: 1rem;
+    border-radius: 5px;
   }
   .input-div {
     padding: 0 !important;
@@ -558,5 +571,9 @@ input:focus {
     padding-left: 0 !important;
     padding-right: 0 !important;
     text-align: left;
+  }
+  .tablet-btn {
+    align-items: end !important;
+    margin: 1rem 0 !important;
   }
 }
