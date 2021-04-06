@@ -3,6 +3,9 @@
 :root {
   --m-header-font-size: 1.38rem;
 }
+:lang(ar) * {
+  font-family: 'Tajawal', sans-serif;
+}
 .btn {
   padding: 0.875rem 2.813rem !important;
 }
