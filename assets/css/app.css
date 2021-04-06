@@ -1,10 +1,9 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"); */
 /* variable */
 :root {
   --m-header-font-size: 1.38rem;
 }
 :lang(ar) * {
-  font-family: 'Tajawal', sans-serif;
+  font-family: 'Almarai', sans-serif;
 }
 .btn {
   padding: 0.875rem 2.813rem !important;
