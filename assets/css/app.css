@@ -8,11 +8,15 @@
 }
 .btn-link {
   padding: 0 !important;
-  margin: 0 .5rem;
+  margin: 0 0.5rem;
 }
 .__mobile_screen {
   position: absolute;
   left: -15%;
+}
+:lang(ar) .__mobile_screen {
+  position: absolute;
+  right: -25%;
 }
 .pa-7r {
   padding: 7rem;
@@ -104,6 +108,14 @@ body {
 }
 .hero-section-rectangle {
   background: url(../media/images/Rectangle.png) no-repeat;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-position: bottom;
+}
+:lang(ar) .hero-section-rectangle {
+  background: url(../media/images/RectangleAr.png) no-repeat;
   background-size: cover;
   top: 0;
   left: 0;
@@ -282,14 +294,24 @@ body {
     margin: 50px 0 50px 0 !important;
   }
 }
+.__section_5 {
+  padding-top: 2rem;
+  padding-bottom: 10rem;
+}
 .section-4-rectangle {
   background: url(../media/images/bg-donat.svg) no-repeat;
+}
+:lang(ar) .section-4-rectangle {
+  background: url(../media/images/bg-donat-ar.svg) no-repeat;
+}
+:lang(ar) .section-4-rectangle,
+.section-4-rectangle {
   background-size: cover;
   top: 0;
   left: 0;
   right: 0;
   background-position: bottom;
-  padding-bottom: 35rem;
+  padding-bottom: 12rem;
 }
 .btn-secondary {
   border-color: transparent !important;
@@ -508,9 +530,6 @@ input:focus {
   .content div div div {
     justify-content: start !important;
   }
-  .content div div p {
-    text-align: left !important;
-  }
   .img-col {
     padding: 2rem 0;
   }
@@ -520,8 +539,13 @@ input:focus {
   .half-gradient div div:last-child div div div {
     justify-content: start;
   }
-  .half-gradient div div:last-child div div p {
+  .half-gradient div div:last-child div div p,
+  .content div div p {
     text-align: left !important;
+  }
+  :lang(ar) .half-gradient div div:last-child div div p,
+  :lang(ar) .content div div p {
+    text-align: right !important;
   }
   .section-4-rectangle {
     padding-bottom: 15rem;
@@ -592,5 +616,9 @@ input:focus {
   }
   .card-div div div {
     margin-bottom: 0.5rem;
+  }
+  .__section_5 {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 }
